@@ -23,6 +23,10 @@
       // https://username.github.io/repo-name/?p=/one/two&q=a=b~and~c=d#qwe
       // Otherwise, leave segmentCount as 0.
       var segmentCount = 1;
+      // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
+      // Otherwise, leave pathSegmentsToKeep as 0.
+     var pathSegmentsToKeep = 1;
+
       var l = window.location;
       l.replace(
         l.protocol +
@@ -43,6 +47,7 @@
           (l.search ? "&q=" + l.search.slice(1).replace(/&/g, "~and~") : "") +
           l.hash
       ).replace("/?", "");
+
     </script>
   </head>
   <body></body>
