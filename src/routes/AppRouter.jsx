@@ -4,7 +4,7 @@ import Category from "../pages/Category/Category";
 
 const AppRouter = () => {
   return (
-    <Routes>
+    <Routes basename="/lm-test">
       <Route path="/" element={<Category />} />
       <Route path="/:categoryId" element={<Category />} />
       <Route path="*" element={<Category />} />
