@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Test task for Leomax
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deploy version [is here](https://tikhonmoskvin039.github.io/lm-test).
 
 ## Available Scripts
 
